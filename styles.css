@@ -1,0 +1,237 @@
+/* Mountain Creek Brewing Co. - Version 1 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f2f2f;
+    background: #fafaf7;
+    line-height: 1.6;
+}
+
+
+/* Header */
+
+header {
+    background: #23432f;
+    color: white;
+    padding: 20px 8%;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+
+.menu a:hover {
+    opacity: 0.8;
+}
+
+
+/* Hero */
+
+.hero {
+
+    min-height: 70vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.55)
+    ),
+    url("images/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    padding: 80px 10%;
+
+    color: white;
+
+}
+
+
+.hero-content {
+
+    max-width: 650px;
+
+}
+
+
+.hero h1 {
+
+    font-size: 3rem;
+    margin-bottom: 10px;
+
+}
+
+
+.hero h2 {
+
+    font-size: 1.8rem;
+    font-weight: normal;
+
+}
+
+
+
+.button {
+
+    display: inline-block;
+
+    margin-top: 25px;
+
+    background: #c89a2b;
+
+    color: white;
+
+    padding: 14px 30px;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+}
+
+
+.button:hover {
+
+    opacity: 0.85;
+
+}
+
+
+
+/* Content sections */
+
+
+.content {
+
+    padding: 60px 10%;
+
+    max-width: 1000px;
+
+}
+
+
+
+.content h2 {
+
+    color: #23432f;
+
+}
+
+
+
+/* Feature cards */
+
+
+.cards {
+
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(250px,1fr));
+
+    gap: 30px;
+
+    padding: 40px 10%;
+
+}
+
+
+
+.card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+
+}
+
+
+.card h3 {
+
+    color: #23432f;
+
+}
+
+
+
+/* Footer */
+
+
+footer {
+
+    background: #23432f;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px;
+
+}
+
+
+/* Mobile */
+
+@media(max-width:700px) {
+
+
+    nav {
+
+        flex-direction: column;
+
+    }
+
+
+    .menu {
+
+        margin-top: 20px;
+
+    }
+
+
+    .menu a {
+
+        margin: 0 10px;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: 2.2rem;
+
+    }
+
+
+}
