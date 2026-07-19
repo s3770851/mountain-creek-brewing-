@@ -15,13 +15,12 @@ body {
 
 /* Header */
 
-header {
-    background: #23432f;
-    color: white;
-    padding: 20px 8%;
+header{
+    position:absolute;
+    width:100%;
+    background:rgba(20,35,25,.45);
+    backdrop-filter:blur(8px);
 }
-
-
 nav {
     display: flex;
     justify-content: space-between;
