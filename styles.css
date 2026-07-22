@@ -211,29 +211,39 @@ footer {
 
 /* Mobile */
 
-@media(max-width:700px) {
+@media (max-width:850px){
 
+    nav{
+        flex-wrap:wrap;
+    }
 
-    nav {
+    .menu-toggle{
+        display:block;
+    }
 
-        flex-direction: column;
+    .menu{
+
+        display:none;
+
+        width:100%;
+
+        flex-direction:column;
+
+        margin-top:20px;
+
+        gap:18px;
 
     }
 
-
-    .menu {
-
-        margin-top: 20px;
-
+    .menu.active{
+        display:flex;
     }
 
-
-    .menu a {
-
-        margin: 0 10px;
-
+    .menu a{
+        margin:0;
     }
 
+}
 
     .hero h1 {
 
