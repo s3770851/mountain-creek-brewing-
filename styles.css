@@ -310,17 +310,8 @@ footer {
     font-size:.9rem;
 
 }
-.card{
 
-    transition:.3s;
 
-}
-
-.card:hover{
-
-    transform:translateY(-5px);
-
-}
 .small-hero{
 
     min-height:45vh;
@@ -360,4 +351,48 @@ form textarea{
 
     min-height:140px;
 
+}
+.card{
+    background:#ffffff;
+    border-radius:18px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:0.25s ease;
+    border-left:8px solid #184D47;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 18px 40px rgba(0,0,0,.15);
+}
+/* Beer Colours */
+
+.lager{
+    background:#FFFBE6;
+    border-left-color:#F6D155;
+}
+
+.pilsner{
+    background:#FFF7D6;
+    border-left-color:#E8C547;
+}
+
+.ipa{
+    background:#FFF2D8;
+    border-left-color:#E68A00;
+}
+
+.pale{
+    background:#FFF5E8;
+    border-left-color:#D97B16;
+}
+
+.blackipa{
+    background:#F2F2F2;
+    border-left-color:#3D2B1F;
+}
+
+.stout{
+    background:#ECE8E4;
+    border-left-color:#1C1C1C;
 }
